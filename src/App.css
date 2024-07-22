@@ -7,7 +7,7 @@
 
 .App{
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     font-family: "Open Sans", sans-serif;
     gap: 50px;
 }
@@ -17,7 +17,6 @@
 .main-sidebar{
     padding: 20px;
     background-color: #200C34;
-    height: 100vh;
 }
 
 
@@ -25,6 +24,7 @@
 
 .main-roadmap{
     margin-top: 20px;
+    margin-right: 50px;
 }
 
 .main-roadmap header h1{
@@ -52,8 +52,69 @@
     color: #5D6372;
 }
 
-.main-roadmap .grid-container .q-container{
+.main-roadmap .grid-container .main-content{
     border: 1px solid #F2F2F4;
     padding: 12px;
     border-radius: 5px;
+    /* max-width: 306px; */
+    
 }
+
+.main-roadmap .grid-container .main-content .add-task{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.main-roadmap .grid-container .main-content p{
+    font-size: 14px;
+}
+
+.main-roadmap .grid-container .main-content .task p{
+    color: #B7BDC9;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+/* --------------------- TASK CONTAINER --------------------------- */
+
+.task-container{
+    margin-top: 16px;
+    border: 1px solid #dbdbdb;
+    padding: 16px;
+    border-radius: 5px;
+}
+
+.main-roadmap .grid-container .task-container h1{
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    /* max-width: 250px; */
+}
+
+.task-container .footer-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+    align-items: center;
+}
+
+.task-container .footer-container .percentage-section{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.task-container .footer-container .percentage-section h3{
+    font-size: 12px;
+    font-weight: 400;
+    color: #5D6372;
+}
+
+.task-container .footer-container .options-section{
+    cursor: pointer;
+}
+
