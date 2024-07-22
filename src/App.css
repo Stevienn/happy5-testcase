@@ -9,11 +9,16 @@
     display: flex;
     height: 100vh;
     font-family: "Open Sans", sans-serif;
+    gap: 50px;
 }
 
 /* --------------------- SIDEBAR --------------------------- */
 
-
+.main-sidebar{
+    padding: 20px;
+    background-color: #200C34;
+    height: 100vh;
+}
 
 
 /* --------------------- ROADMAP --------------------------- */
