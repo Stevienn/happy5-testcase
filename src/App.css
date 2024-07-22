@@ -79,6 +79,22 @@
     margin-top: 24px;
 }
 
+
+/* --------------------- RESPONSIVE ROADMAP --------------------------- */
+
+@media (max-width: 815px) {
+    .main-roadmap .grid-container {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+@media (max-width: 500px) {
+    .main-roadmap .grid-container {
+      grid-template-columns: 1fr;
+    }
+  }
+
+
 /* --------------------- TASK CONTAINER --------------------------- */
 
 .task-container{
